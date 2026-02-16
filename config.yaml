@@ -1,0 +1,13 @@
+nvidia_api:
+  key: "[YOUR API KEY]"
+  url: "https://integrate.api.nvidia.com/v1/chat/completions"
+  model: "nvidia/nemotron-nano-12b-v2-vl"
+
+parameters:
+  max_tokens: 1024
+  temperature: 0.1
+  top_p: 1.0
+  frequency_penalty: 0
+  presence_penalty: 0
+  stream: false
+  timeout: 120
